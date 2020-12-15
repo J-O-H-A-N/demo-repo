@@ -1,0 +1,33 @@
+GIT COMMANDS:
+
+git status
+git add .
+git add index.html
+git clone git@address
+clear
+cd repository
+git commit -m "added index.html" -m "some description"
+git config --global user.name "your name"
+git config --global user.email "you@example.com"
+
+git config --list
+git config user.email
+git config user.name
+git help
+git help 'keyword'
+
+
+#commiting a change:
+$git add .
+$git status
+$git commit -m "added index.html"
+$git push origin HEAD:master
+
+
+#creating a new SSH key:
+$ ssh-keygen -t rsa -b 4096 -C "example@email.com"
+$ ls | grep testkey
+testkey
+testkey.pub
+$ cat testkey.pub
+ //will generate a key which you will have to add to a new SSH key in your github account
