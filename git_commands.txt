@@ -10,6 +10,9 @@ git commit -m "added index.html" -m "some description"
 git config --global user.name "your name"
 git config --global user.email "you@example.com"
 git push -u origin HEAD:master
+git branch
+
+
 
 git config --list
 git config user.email
@@ -23,6 +26,16 @@ $git add .
 $git status
 $git commit -m "added index.html"
 $git push origin HEAD:master
+
+
+#create and switch to a new branch:
+git checkout -b branchname(make it very descriptive)
+
+
+
+
+#switch between branches:
+git checkout branchname
 
 
 #creating a new SSH key:
