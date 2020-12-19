@@ -9,6 +9,7 @@ cd repository
 git commit -m "added index.html" -m "some description"
 git config --global user.name "your name"
 git config --global user.email "you@example.com"
+git push -u origin HEAD:master
 
 git config --list
 git config user.email
@@ -17,7 +18,7 @@ git help
 git help 'keyword'
 
 
-#commiting a change:
+#commiting a change: || #pushing on github
 $git add .
 $git status
 $git commit -m "added index.html"
