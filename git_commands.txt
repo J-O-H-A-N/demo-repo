@@ -10,13 +10,14 @@ git commit -m "added index.html" -m "some description"
 git config --global user.name "your name"
 git config --global user.email "you@example.com"
 git push -u origin HEAD:master
-git branch
-
+git push -u origin branchname
+git branch //shows branches
+git diff branchname //shows the difference between branches
 
 
 git config --list
-git config user.email
-git config user.name
+git config user.email //snyc with email
+git config user.name //snyc with name of github acc
 git help
 git help 'keyword'
 
@@ -27,16 +28,17 @@ $git status
 $git commit -m "added index.html"
 $git push origin HEAD:master
 
-
 #create and switch to a new branch:
 git checkout -b branchname(make it very descriptive)
-
-
-
 
 #switch between branches:
 git checkout branchname
 
+#pull request:
+git pull origin branchname
+
+#delete a branch:
+git branch -d branchname
 
 #creating a new SSH key:
 $ ssh-keygen -t rsa -b 4096 -C "example@email.com"
