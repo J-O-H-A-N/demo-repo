@@ -7,12 +7,14 @@ git clone git@address
 clear
 cd repository
 git commit -m "added index.html" -m "some description"
+git commit -am "commit message" // only works for modified files
 git config --global user.name "your name"
 git config --global user.email "you@example.com"
 git push -u origin HEAD:master
 git push -u origin branchname
 git branch //shows branches
 git diff branchname //shows the difference between branches
+git merge branchname
 
 
 git config --list
@@ -20,7 +22,7 @@ git config user.email //snyc with email
 git config user.name //snyc with name of github acc
 git help
 git help 'keyword'
-
+git rm    // Remove files from the working tree and from the index
 
 #commiting a change: || #pushing on github
 $git add .
