@@ -15,7 +15,7 @@ git push -u origin branchname
 git branch //shows branches
 git diff branchname //shows the difference between branches
 git merge branchname
-
+git log // gives log of all commits
 
 git config --list
 git config user.email //snyc with email
@@ -30,7 +30,7 @@ $git status
 $git commit -m "added index.html"
 $git push origin HEAD:master
 
-#create and switch to a new branch:
+#create and switch to a new branch:cae      
 git checkout -b branchname(make it very descriptive)
 
 #switch between branches:
@@ -41,6 +41,10 @@ git pull origin branchname
 
 #delete a branch:
 git branch -d branchname
+
+#undoing in git:
+git reset filename || git reset HEAD~1
+git reset --hard hashvalue
 
 #creating a new SSH key:
 $ ssh-keygen -t rsa -b 4096 -C "example@email.com"
