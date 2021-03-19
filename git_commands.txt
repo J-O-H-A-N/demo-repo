@@ -16,6 +16,7 @@ git branch //shows branches
 git diff branchname //shows the difference between branches
 git merge branchname
 git log // gives log of all commits
+git rm --cached -r //remove all the files from commit stage
 
 git config --list
 git config user.email //snyc with email
